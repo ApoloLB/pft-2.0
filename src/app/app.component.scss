@@ -1,0 +1,23 @@
+/* Importando o CSS do Bootstrap e dos Ícones */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-timeline: --page-scroll block;
+  }
+}
