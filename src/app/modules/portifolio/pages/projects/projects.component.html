@@ -1,0 +1,28 @@
+<section class="projects">
+
+    <div class="projects-container">
+
+        <button (click)="nextProject()"><i class="bi bi-arrow-down-circle"></i></button>
+
+        <div class="cylinder" [style.transform]="'rotateX(' + currentAngle + 'deg)'">
+            <div class="project-card project1">
+
+
+            </div>
+
+            <div class="project-card project2">
+
+            </div>
+
+            <div class="project-card project3">
+
+            </div>
+        </div>
+        <button (click)="prevProject()"><i class="bi bi-arrow-up-circle"></i></button>
+
+
+    </div>
+
+
+
+</section>
