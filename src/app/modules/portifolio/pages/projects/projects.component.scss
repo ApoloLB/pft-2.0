@@ -9,7 +9,7 @@
 
 .projects-container {
     height: 100%;
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +121,7 @@
 }
 
 .right-card {
-    transform: translateX(45vh);
+    transform: translateX(26vh);
 
     .project-card-text {
 
@@ -133,6 +133,6 @@
 }
 
 .left-card {
-    transform: translateX(-45vh);
+    transform: translateX(-26vh);
 
 }
