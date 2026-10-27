@@ -1,28 +1,49 @@
 <section class="projects">
 
-    <div class="projects-container">
+    <div class="projects-container"> <!-- Project Container-->
 
-        <button (click)="nextProject()"><i class="bi bi-arrow-down-circle"></i></button>
+        <div class="project-card left-card"><!-- Project card 1-->
 
-        <div class="cylinder" [style.transform]="'rotateX(' + currentAngle + 'deg)'">
-            <div class="project-card project1">
+            <div class="project-card-text">
+                <div class="project-title">
+                    <h1>G-LAB</h1>
+                </div>
+                <div class="project-subtitle">
+                    <h2>Projeto Integrador - Fatec Indaiatuba</h2>
+                </div>
+                <div class="project-desc">
+                    <p>Projeto desenvolvido para automatizar a reserva de salas e laoratórios da faculdade. <a
+                            href="https://fatecid-glab.vercel.app/reservas?date=2026-06-11&room=lab_01"
+                            target="_blank">(Saiba mais)</a></p>
+                </div>
+                <div class="card-technologies">
+                    <div class="technology" style="background-image: url('/images/icons/spring-icon.jpg');"></div>
+                    <div class="technology" style="background-image: url('/images/icons/java-icon.svg');"></div>
+                    <div class="technology" style="background-image: url('/images/icons/ts-icon.png');"></div>
 
-
+                </div>
             </div>
 
-            <div class="project-card project2">
+            <div class="project-card-image" style="background-image: url('/images/glab-img.png');"></div>
 
+        </div><!-- Project card 1 end -->
+
+        <div class="project-card right-card"><!-- Project card 2 -->
+            <div class="project-card-image"></div>
+            <div class="project-card-text">
+                <div class="project-title">Projeto 1</div>
+                <div class="project-subtitle">Subtitulo do Projeto 1</div>
+                <div class="project-desc">Descrição do Projeto 1</div>
+                <div class="card-technologies">
+                    <div class="technology" style="background-image: url('/images/spring-logo.jpg');"></div>
+                </div>
             </div>
 
-            <div class="project-card project3">
-
-            </div>
-        </div>
-        <button (click)="prevProject()"><i class="bi bi-arrow-up-circle"></i></button>
+            <div class="project-card-image" style="background-image: url('/images/glab-img.png');"></div>
 
 
+
+        </div><!-- Project card 2 end -->
     </div>
-
-
 
 </section>
